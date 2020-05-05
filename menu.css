@@ -1,0 +1,218 @@
+<style>
+
+html {
+    height: 100%;
+    width: 100%;
+   
+}
+
+body {
+    cursor: url('images/cursor.cur'), default;
+        
+ margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: url('images/clouds.png');
+        background-repeat: repeat;
+    z-index: 0;
+}
+
+.top {
+    width: 1024px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -156px;   
+}
+
+.video-container {
+    position: relative;
+    width: 60%;
+    left: 20%;
+}
+
+.youtube-responsive-container {
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.youtube-responsive-container iframe, 
+.youtube-responsive-container object, 
+.youtube-responsive-container embed {
+position:absolute;
+width:100%;
+height:100%;
+}
+
+.headshot-container {
+    width: 80%;
+    position: relative;
+    left: 20%;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+.headshot {
+    width: 20%;
+    position: relative;
+}
+
+
+
+.playlist {
+    width: 70%;
+    position: relative;
+    left: 20%;
+    padding-bottom: 75vh;
+}
+
+.bars {
+    position: relative;
+    width: 1024px;
+    top: -32px;
+}
+    
+.chop-container {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 1024px;
+    top: 180px;
+    
+    
+}
+
+.middle {
+    position: relative;
+    height: 650vh;
+    width: 1024px;
+}
+
+.topsies {
+   position: sticky;
+   position: -webkit-sticky;
+   top: -158px;
+   width: 1024px;
+   z-index: 0;
+   
+}
+
+.sidebars {
+    background-image:url("images/guillotine/chop-sides-small.png");
+    background-repeat: repeat-y;
+}
+
+.chop-img {
+    position: relative;
+    width: 100%;
+  
+}
+
+.bott {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -320px;
+    width: 1024px;
+
+}
+
+
+
+.botto-space {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    height: 420vh;
+    width: 100vw;
+    z-index: 0;
+    background: url("images/stars.png");
+    background-repeat: repeat;
+    
+}
+
+.credits {
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    width: 40%;
+    left: 20%;
+  
+    
+}
+
+ .contact {
+	  position: fixed;
+	bottom: 0;
+	right: 0;
+	border: 10px solid black;
+    width: 200px;
+    }
+
+.landing {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0px;
+    top: -320px;
+    z-index: -2;
+    width: 100%;
+
+}
+    
+.dong {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -44px;
+    left: 0px;
+    z-index: 99;
+    width: 100%;
+    margin-top: -310px;
+    margin-bottom: -10px;
+}
+
+a:link {
+    color: #241168;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #821baa;
+
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+    
+}
+
+#warning-message { display: none; 
+background-color: black;
+color:white;
+font-size:30px;
+}
+
+@media only screen and (orientation:portrait){
+#wrapper { display:none; }
+#warning-message { display:block; }
+
+ }
+
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+
+    }
+    
+    
+
+
+</style>
