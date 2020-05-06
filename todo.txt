@@ -1,0 +1,26 @@
+https://www.wikihow.com/Be-Alone
+https://www.wikihow.life/Cross-Stitch
+https://www.wikihow.com/Enjoy-Being-Alone
+https://www.wikihow.com/Have-Fun-Alone
+https://www.wikihow.com/Act-Happy
+https://www.wikihow.com/Be-Happy
+
+
+CSS image carousels
+	this website should really look like it has something to sell
+
+https://anroots.github.io/css3-image-collapse/#
+	wild collapsing slides like book spines
+
+https://codepen.io/dangvanthanh/pen/AgHnB
+simple carousel
+
+https://www.smashingmagazine.com/2012/04/pure-css3-cycling-slideshow/
+
+very simple horizontal scroll: https://jsfiddle.net/usm10hfy/
+
+with nice slides & division
+https://codepen.io/pbutcher/pen/gKqKdv
+
+what is the SYNTHESIS
+    what is the next conceptual step forward
