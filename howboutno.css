@@ -36,9 +36,13 @@ font-size:30px;
         #warning-message { display:none; }
 
     }
-    
-
+ 
+ 
 .wrapper {
+    
+    }
+
+.flex-container {
     position: absolute;
     width: 100%;
     top: 0px;
@@ -82,6 +86,21 @@ font-size:30px;
 .top {
     top: 0px;
 }
+
+.video-break {
+    position: flex;
+    width: 100%;
+    height: 75vw;
+    
+}
+
+.introvid {
+    position: relative;
+    width: 60%;
+    left: 30%;
+      
+}
+
 
 .youtube-responsive-container {
 position:relative;
