@@ -73,6 +73,20 @@ font-size:30px;
 }
 
 
+.playblock {
+    display: flex;
+    background-color: black;
+    width: 25%;
+    position: relative;
+    display: inline-block;
+    height: calc(25vw * 3/4);
+    bottom: 0px;
+}
+
+.playblock:hover{
+    background:rgba(0,0,0,0.9);
+}
+
 .title {
     color: white;
     text-align: left;
@@ -90,7 +104,6 @@ font-size:30px;
 .video-break {
     position: flex;
     width: 100%;
-    height: 75vw;
     
 }
 
@@ -100,6 +113,25 @@ font-size:30px;
     left: 30%;
       
 }
+
+.playtitle {
+    font-size: 24px;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+    bottom: 0px;
+    width: 90%;
+}
+
+.tile {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
 
 
 .youtube-responsive-container {
@@ -119,5 +151,17 @@ height:100%;
 }
 
 
+a:link {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
 
+a:hover {
+    background-color: rgba(0,0,0,1);
+    color: white;
+}
+
+a:visited {
+    
+}
 </style>
