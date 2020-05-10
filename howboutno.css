@@ -115,7 +115,7 @@ font-size:30px;
 }
 
 .playtitle {
-    font-size: 24px;
+    font-size: 26px;
     position: absolute;
     text-align: left;
     z-index: 1;
@@ -156,12 +156,22 @@ a:link {
     color: white;
 }
 
+a:visited {
+    background-color: rgba(0,0,0,1);
+    color: #353535;
+}
+
 a:hover {
     background-color: rgba(0,0,0,1);
     color: white;
 }
 
-a:visited {
-    
+
+.contact {
+        position: relative;
+        color: white;
+        width: 90%;
+        left: 10%;
 }
+
 </style>
