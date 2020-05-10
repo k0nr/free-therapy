@@ -4,8 +4,7 @@ html {
             
 body {
     cursor: url('images/cursor.cur'), default;
-    background: url('images/clouds.png');
-    background-repeat: repeat;
+    background-color: black;
 }
 		
 			
@@ -42,9 +41,9 @@ body {
     
     .title {
 		text-align: center;
+        color: white;
 		font-weight: bold;
 		font-size: 28px;
-		text-decoration: underline;
 		position:relative;
 		padding-top: 15px;
         padding-bottom: 15px;
@@ -54,7 +53,7 @@ body {
     
 		
 .youtube-responsive-container {
-position:relative;
+position: relative;
 padding-bottom:56.25%;
 padding-top:30px;
 height:0;
@@ -84,18 +83,18 @@ height:60%;
 }
 
 a:link {
-    color: #3a1baa;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #821baa;
+    color: white;
 
 }
 
 a:visited {
-    color: #3a1baa;
+    color: white;
     text-decoration: none;
     
 }
